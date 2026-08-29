@@ -6,15 +6,15 @@ required after setup), and can control your Windows laptop — opening
 apps, checking your battery, taking screenshots, and more.
 
 ## Features
-- 🎤 Voice input (speech-to-text)
-- 🔊 Voice output (text-to-speech)
-- 🧠 Natural conversation powered by a local LLM (100% free)
-- 🖥️ System control: open/close apps, battery status, CPU/RAM usage,
+- Voice input (speech-to-text)
+- Voice output (text-to-speech)
+- Natural conversation powered by a local LLM (100% free)
+- System control: open/close apps, battery status, CPU/RAM usage,
   screenshots, web search, shutdown timer
-- 💬 Remembers recent conversation context
-- 🔒 Runs entirely on your PC — no data sent to any company
+- Remembers recent conversation context
+- Runs entirely on your PC — no data sent to any company
 
-> 🙋 **Note from the author:** This is my first time building and
+> **Note from the author:** This is my first time building and
 > sharing an open-source project. If you spot something wrong,
 > inefficient, or that could just be done better, please open an
 > issue or a PR — I'd genuinely appreciate the feedback and would
@@ -66,7 +66,7 @@ apps, checking your battery, taking screenshots, and more.
    python main.py
    ```
 
-> 💡 If your PC struggles with `llama3.1` (8B params), try a smaller
+> If your PC struggles with `llama3.1` (8B params), try a smaller
 > model like `ollama pull qwen2.5:3b` and set `OLLAMA_MODEL=qwen2.5:3b`
 > in your `.env`. Smaller = faster but less capable.
 
