@@ -74,6 +74,7 @@ Say something like *"Jarvis, open notepad"* or *"what's my battery
 percentage"* and watch it work. Say **"exit"** to quit.
 
 ## Project Structure
+
 ```
 jarvis/
 ├── main.py                 # entry point / main loop
@@ -83,7 +84,7 @@ jarvis/
 └── modules/
     ├── stt.py                # speech-to-text
     ├── tts.py                # text-to-speech
-    ├── brain.py              # Claude API + tool-use logic
+    ├── brain.py              # Ollama API + tool-use logic
     └── system_tools.py       # functions Jarvis can execute + tool registry
 ```
 
@@ -92,7 +93,7 @@ jarvis/
 2. Add its schema to `TOOL_DEFINITIONS`
 3. Register it in `TOOL_FUNCTIONS`
 
-That's it — Claude will automatically start using it when relevant.
+That's it — the AI will automatically start using it when relevant.
 
 ## Roadmap Ideas
 - [ ] Wake word detection ("Hey Jarvis") using Porcupine
@@ -115,3 +116,4 @@ welcome, and I'm open to any suggestions.
 
 ## License
 MIT — free to use, modify, and share.
+```
